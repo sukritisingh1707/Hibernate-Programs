@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 17 Sep, 2019 4:32:28 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="org.bean.CUSTOMER" table="CUSTOMER">
+        <id name="MiddleName" type="java.lang.String">
+            <column name="MIDDLENAME" />
+            <generator class="assigned" />
+        </id>
+        <property name="AccNo" type="int">
+            <column name="ACCNO" />
+        </property>
+        <property name="FristName" type="java.lang.String">
+            <column name="FRISTNAME" />
+        </property>
+        <property name="LastName" type="java.lang.String">
+            <column name="LASTNAME" />
+        </property>
+        <property name="Gender" type="java.lang.String">
+            <column name="GENDER" />
+        </property>
+        <property name="Email" type="java.lang.String">
+            <column name="EMAIL" />
+        </property>
+        <property name="Mobile" type="java.lang.String">
+            <column name="MOBILE" />
+        </property>
+        <property name="Password" type="java.lang.String">
+            <column name="PASSWORD" />
+        </property>
+        <property name="Address" type="java.lang.String">
+            <column name="ADDRESS" />
+        </property>
+        <property name="Date" type="java.lang.String">
+            <column name="DATE" />
+        </property>
+    </class>
+</hibernate-mapping>
